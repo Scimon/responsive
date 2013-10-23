@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta charset="utf-8"> 
+	<title>Homepage</title>
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script src="/exploder.js"></script>
+	<link rel="stylesheet" type="text/css" href="/style.css">
+  </head>
+  <body>
+	<!-- Header component added server side -->
+	<div id="comp-header">
+	  <ul>
+		<li><a href="#comp-nav">Menu</a></li>
+		<li><a href="#comp-search">Search</a></li>
+	  </ul>
+	</div>
+	<!-- End Header Component -->
+	<div id="page-content">
+	  <div id="comp-index">
+		<h1>Test page</h1>
+		<p>This is page 1</p>
+		<div><a href="/news.html" class="embed">News</a></div>
+	  </div>
+	</div>
+	<!-- Footer component added server side -->
+	<div id="comp-nav">
+	  <div><a href="/index.html">Home</div>
+	  <div><a href="/login.html" class="embed">Login</a></div>
+	  <div><a href="/page2.html">Page 2</div>
+	  <div><a href="/news.html#comp-news">News</a></div>
+	</div>
+	<div id="comp-search">
+	  <form><input name="search" type="search" placeholder="search"><input type="submit" name="s" value="Go"></form>
+	</div>
+	<!-- End Footer Component -->
+  </body>
+</html>

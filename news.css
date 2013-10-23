@@ -1,0 +1,6 @@
+body.news h2 {
+	display: none;
+}
+body.article div.article p.article-jump {
+	display: none;
+}

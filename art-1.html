@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta charset="utf-8"> 
+	<title>Article 1</title>
+	<link rel="stylesheet" type="text/css" href="/style.css">
+	<link rel="stylesheet" type="text/css" href="/news.css" class="embed">
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script src="/exploder.js"></script>
+  </head>
+  <body class="article">
+	<!-- Header component added server side -->
+	<div id="comp-header">
+	  <ul>
+		<li><a href="#comp-nav">Menu</a></li>
+		<li><a href="#comp-search">Search</a></li>
+	  </ul>
+	</div>
+	<!-- End Header Component -->
+	<h2>Article 1</h2>
+	<div id="page-content">
+	  <div id="comp-art-1" class="article" data-min-width="400" data-min-height="200">
+		<p>First paragraph, some content. Random stuff, all is good. First paragraph, some content. Random stuff, all is good. First paragraph, some content. Random stuff, all is good.</p>
+		<p class="article-jump"><a href="/art-1.html">Read on</a></p>
+		<p>Second paragraph, more content, writer going slightly insane. Might or might not be displayed. Second paragraph, more content, writer going slightly insane. Might or might not be displayed. Second paragraph, more content, writer going slightly insane. Might or might not be displayed. </p>
+		<p>Third paragraph, writer obivously on some form of narcotics, possibly hoping to get a job with the Daily Mail. Third paragraph, writer obivously on some form of narcotics, possibly hoping to get a job with the Daily Mail. Third paragraph, writer obivously on some form of narcotics, possibly hoping to get a job with the Daily Mail.</p>
+	  </div>
+	</div>
+	<!-- Footer component added server side -->
+	<div id="comp-nav">
+	  <div><a href="/index.html">Home</div>
+	  <div><a href="/login.html" class="embed">Login</a></div>
+	  <div><a href="/page2.html">Page 2</div>
+	  <div><a href="/news.html#comp-news">News</a></div>
+	</div>
+	<div id="comp-search">
+	  <form><input name="search" type="search" placeholder="search"><input type="submit" name="s" value="Go"></form>
+	</div>
+	<!-- End Footer Component -->
+  </body>
+</html>
