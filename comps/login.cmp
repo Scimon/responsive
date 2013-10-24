@@ -1,0 +1,7 @@
+<div class="comp comp-login" data-min-width="300" data-min-height="200">
+  <form>
+	<label>Username <input type="text" placeholder="Username" required></label>
+	<label>Password <input type="password" placeholder="Password" required></label>
+	<input type="submit" name="s" value="Login">
+  </form>
+</div>

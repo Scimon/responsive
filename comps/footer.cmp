@@ -1,0 +1,7 @@
+<div class="comp comp-footer">
+<!-- Footer component added server side -->
+<!--#include virtual="/comps/nav.cmp" -->
+<!--#include virtual="/comps/search.cmp" -->
+<!--#include virtual="/comps/scripts.cmp" -->
+<!-- End Footer Component -->
+</div>
