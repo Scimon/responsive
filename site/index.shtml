@@ -3,12 +3,12 @@
   <head>
 	<meta charset="utf-8"> 
 	<title>Homepage</title>
-	<link rel="stylesheet" type="text/css" href="/css/style.css">
+	<link rel="stylesheet" type="text/css" href="/css/style.min.css">
   </head>
   <body id="page-index">
 	<!--#include virtual="/comps/header"-->
-	<div id="page-content">
-	  <div id="page-index">
+	<div id="page-content" class="grid">
+	  <div id="page-index" class="grid__item one-half">
 		<h1>Test page</h1>
 		<p>This is page 1</p>
 		<div><a href="/news.shtml" class="embed">News</a></div>
