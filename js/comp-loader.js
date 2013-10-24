@@ -51,5 +51,5 @@ var comp_loader = {
 	
 }
 
-$().ready( comp_loader.init );
+//$().ready( comp_loader.init );
 
