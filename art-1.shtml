@@ -21,17 +21,17 @@
 	<div id="page-content">
 	  <div id="comp-art-1" class="article" data-min-width="400" data-min-height="200">
 		<p>First paragraph, some content. Random stuff, all is good. First paragraph, some content. Random stuff, all is good. First paragraph, some content. Random stuff, all is good.</p>
-		<p class="article-jump"><a href="/art-1.html">Read on</a></p>
+		<p class="article-jump"><a href="/art-1.shtml">Read on</a></p>
 		<p>Second paragraph, more content, writer going slightly insane. Might or might not be displayed. Second paragraph, more content, writer going slightly insane. Might or might not be displayed. Second paragraph, more content, writer going slightly insane. Might or might not be displayed. </p>
 		<p>Third paragraph, writer obivously on some form of narcotics, possibly hoping to get a job with the Daily Mail. Third paragraph, writer obivously on some form of narcotics, possibly hoping to get a job with the Daily Mail. Third paragraph, writer obivously on some form of narcotics, possibly hoping to get a job with the Daily Mail.</p>
 	  </div>
 	</div>
 	<!-- Footer component added server side -->
 	<div id="comp-nav">
-	  <div><a href="/index.html">Home</div>
-	  <div><a href="/login.html" class="embed">Login</a></div>
-	  <div><a href="/page2.html">Page 2</div>
-	  <div><a href="/news.html#comp-news">News</a></div>
+	  <div><a href="/index.shtml">Home</div>
+	  <div><a href="/login.shtml" class="embed">Login</a></div>
+	  <div><a href="/page2.shtml">Page 2</div>
+	  <div><a href="/news.shtml#comp-news">News</a></div>
 	</div>
 	<div id="comp-search">
 	  <form><input name="search" type="search" placeholder="search"><input type="submit" name="s" value="Go"></form>

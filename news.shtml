@@ -22,15 +22,15 @@
 	  <h1>News</h1>
 	  <div id="comp-news" data-min-width="400" data-min-height="300">
 		<h2>News</h2>
-		<div id="embed-target-art-1"><h3><a href="/art-1.html" class="embed">Article 1</a></h3></div>
+		<div id="embed-target-art-1"><h3><a href="/art-1.shtml" class="embed">Article 1</a></h3></div>
 	  </div>
 	</div>
 	<!-- Footer component added server side -->
 	<div id="comp-nav">
-	  <div><a href="/index.html">Home</div>
-	  <div><a href="/login.html" class="embed">Login</a></div>
-	  <div><a href="/page2.html">Page 2</div>
-	  <div><a href="/news.html#comp-news">News</a></div>
+	  <div><a href="/index.shtml">Home</div>
+	  <div><a href="/login.shtml" class="embed">Login</a></div>
+	  <div><a href="/page2.shtml">Page 2</div>
+	  <div><a href="/news.shtml#comp-news">News</a></div>
 	</div>
 	<div id="comp-search">
 	  <form><input name="search" type="search" placeholder="search"><input type="submit" name="s" value="Go"></form>
